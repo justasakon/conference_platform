@@ -4,75 +4,19 @@
     padding: 0;
     box-sizing: border-box;
 
-}
-
+  }
   nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 20px;
-    position: relative;
-    height: 64px;
-  
-  }
-  .menu{    
-    position: absolute;
-    left: 16px;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 0;
-  }
-  .menu ul{
-    display: flex;
-    align-items: center;
-    list-style: none;
-    gap: 12px;
-    margin: 0;
-    padding: 0;
-  }
-  .menu a{display:flex;align-items:center}
-
-  .logo{position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display:flex; align-items:center}
-  .logo img{height:48px;width:auto;display:block}
-  .menu img{height:36px;width:auto;display:block}
-.hero{
-  /* correct relative path to image inside 'assets 1/images (16)/images' */
-  background-image: url("../assets 1/images (16)/images/home-background.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 360px; /* ensures visible area for the background */
- }
-.hero h3 {
-  
-    padding : 50px;
-      font-size: 30px;
-    text-align: left;
-    color: #dc143c;
-    background-image: none;
-
-}
-.hero h3 span{
-  font-size: 20px;
-  font-weight: 700;
-  color: #dc143c;
-}
-.hero p{
-    text-align: left;
-    padding: 20px;
-    font-size: 20px;
-
-}
-.date{
-    text-align: left;
-    padding: 60px;
-    font-size: 10px;
-    font-weight: bold;
-  }
-  .date span{
-    display: inline-block;
-    text-align: left;
+    color: white;
     padding: 10px;
-    font-size: 12px;
-    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+
   }
+
+  .logo {   
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+    flex-direction: column;
+    position: center;
+ }
