@@ -10,19 +10,40 @@
     <!---mobile section-->
     <header>
         <nav>
-            <div class="mobile_menu" id="mobile_menu">
-                <p></p>
-                <p></p>
-                <p></p>
-
-            </div>
-            <div class="logo">
-                <img src="./assets/images/logo.png" alt="">
-                
-            </div>
-            <div class="desktop_menu" id="desktop_menu">
+            <div class="top_nav">
+                <div class="nav_banner" role ="banner">
+                    <div class="icon_banner" id="icon">
                 <ul>
-                    <li><a href="#About">About</a></li>
+                    <li>
+     <li><a href="#"><img src="./assets/images/facebookicon.svg" alt=""></a></li>
+      <li><a href="#"><img src="./assets/images/twitter.svg" alt=""></a></li>
+      <li><a href="#English">English</a></li>
+      <li><a href="#My Page">My Page</a></li>
+      <li><a href="#Logout">Logout</a></li>
+                    </li>
+                </ul>
+                
+                    </div>
+                </div>
+            </div>
+              <div class="bottom_nav">
+                         <div class="mobile_menu"  id="mobile_menu">
+<p></p>
+<p></p>
+<p></p>
+         </div>
+           <div class="logo">
+            <img src="./assets/images/logo.png" alt="">
+           </div>
+
+              
+            
+           
+            
+         <div class="desktop_menu" id="desktop_menu">
+<ul>
+    
+                    <li><a href="./about.html">About</a></li>
                     <li><a href="#Program">Program</a></li>
                     <li><a href="#Join">Join</a></li>
                     <li><a href="#Sponsor"> Sponsor</a></li>
@@ -30,6 +51,12 @@
                     <li><a href="#CC campaign">CC campaign</a></li>
                 </ul>
                 </div>
+             
+         </div>
+            
+          
+         
+            
 
             
         </nav>
@@ -46,7 +73,7 @@
                 <p>A joyful celebration believing in the value of openness and sharing, creating a positive change with people from over 80 countries is taking place in October, in Korea.</p>
             </div>
             <div class="venu">
-                 <div class="venu_date">
+                 <div class="date_venu">
                 <p>2015.10.15(THU)~16(FRI)</p>
                 </div>
                 <div class="venu_mail">
@@ -62,37 +89,42 @@
                 <h2>Main Program</h2>
             <p></p>
             </div>
-            <div class="program_cards">
-                <div class="program_card">
-                <img src="https://cdn-icons-png.flaticon.com/128/1851/1851373.png" alt="">
-                <h3>Lecture</h3>
-                <p>Listen to the speakers from various countries about the messages of sharing and opening.</p>
-                </div>
-                <div class="program_card">
-                <img src="https://cdn-icons-png.flaticon.com/128/2400/2400551.png" alt="">
-                <h3>CC Exhibition</h3>
-                <p>Appreciate various creations applying CC license of artists, organized from Art Center Nabi</p>
-                </div>
-                <div class="program_card">
-                <img src="https://cdn-icons-png.flaticon.com/128/589/589708.png" alt="">
-                <h3>Forum</h3>
-                <p>Have the time to share your thoughts and opinions with experts for each topic.</p>
-                </div>
-                <div class="program_card">
-                <img src="https://cdn-icons-png.flaticon.com/128/9123/9123734.png" alt="">
-                <h3>Workshop</h3>
-                <p>Try creating your own work using open source licenses rather than just watching it.</p>
-                <p></p>
-                </div>
-                <div class="program_card">
-                <img src="https://cdn-icons-png.flaticon.com/128/11976/11976547.png" alt="">
-                <h3>CC Ignite</h3>
-                <p>Get opportunities to network with CC affiliates around the world, also after the summit.</p>
-                </div>
-                <div class="submit_button" id="join">
-                    <button>join CC Global Summit 2015</button>
-                </div>
-            </div>
+          <div class="program_cards">
+    <div class="program_card">
+        <img src="https://cdn-icons-png.flaticon.com/128/1851/1851373.png" alt="Lecture Icon">
+        <h3>Lecture</h3>
+        <p>Listen to speakers from various countries about the messages of sharing and opening.</p>
+    </div>
+    <div class="program_card">
+        <img src="https://cdn-icons-png.flaticon.com/128/2400/2400551.png" alt="CC Exhibition Icon">
+        <h3>CC Exhibition</h3>
+        <p>Appreciate various creations applying CC licenses of artists, organized by Art Center Nabi.</p>
+    </div>
+    <div class="program_card ">
+        <img src="https://cdn-icons-png.flaticon.com/128/589/589708.png" alt="Forum Icon">
+        <h3>Forum</h3>
+        <p>Share your thoughts and opinions with experts on each topic.</p>
+    </div>
+    <div class="program_card ">
+        <img src="https://cdn-icons-png.flaticon.com/128/9123/9123734.png" alt="Workshop Icon">
+        <h3>Workshop</h3>
+        <p>Try creating your own work using open-source licenses rather than just watching.</p>
+    </div>
+    <div class="program_card ">
+        <img src="https://cdn-icons-png.flaticon.com/128/11976/11976547.png" alt="CC Ignite Icon">
+        <h3>CC Ignite</h3>
+        <p>Get opportunities to network with CC affiliates around the world, even after the summit.</p>
+    </div>
+    </div>
+    <div class="see_program">
+        <h4><a href="#full_program">See the Whole Program</a></h4>
+    </div>
+    <div class="submit_button" id="join">
+        <button onclick="location.href='registration_link.html'">Join CC Global Summit 2015</button>
+    </div>
+    <div class="more">
+        <button id="toggleButton" type="button">MORE</button>
+    </div>
         </section>
         <section class="speaker">
             <div class="speaker_title">
@@ -100,41 +132,43 @@
             <p></p>
             </div>
 
-            <div class="speaker_cards1">
-                <div class="speaker_card">   
-             <img src="./assets/images/actor2.jpg" alt="">
-                    
-    <div class="speaker_description">
-     <h3>Yochai Benkler</h3>
-       <p >Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
- <p></p>
-  <h6>Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006</h6>
- 
-   </div>
-   </div>
-
-
-     <div class="speaker_card">
-      <img src="./assets/images/actor6.jpg" alt="">
-                    
-                    <div class="speaker_description">
-                        <h3>Soh Yeong Noh</h3>
-                        <p >Director of Art Centre Nabi and a board member of CC Korea</p>
-                              <h6>As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.</h6>
-                    </div>
-                    </div>
-                   
+            <div class="speaker_cards" id="speaker_cards">
+    
                 </div>
                 
-                <div class="speaker_button">
-                    <button type="button">
-                <span>MORE <img src="https://cdn-icons-png.flaticon.com/128/10927/10927659.png" alt="">
-                </button>
-        </div>
             </section>
 
+            <section class="down">
+
+                    <div class="do">
+                        <h3>Partners</h3>
+                        <p></p>
+                    </div>
+                    <div class="logos">
+                        <ul>
+                            <li><img src="./assets/images/mozila.svg" alt=""></li>
+                                <li><img src="./assets/images/google.svg" alt=""></li>
+                                <li><img src="./assets/images/naver.png" alt=""></li>
+                                <li><img src="./assets/images/damko.svg" alt=""></li>
+                                <li><img src="./assets/images/airbnb.png" alt=""></li>
+                        </ul>
+           
+                        
+                    </div>
+
+                </section>
+            </main>
+                <footer class="footer">
+                    <div class="footer_logo">
+                     <img src="./assets/images/footer logo.png" alt="">
+                
+                        <p>2015 Creative Commons Korea. Some Rights Reserved.</p>
+                    </div>
+                    
+                </footer> 
     </main>
 
 
+<script src="./assets/js/script.js"></script>
 </body>
 </html>
